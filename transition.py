@@ -37,7 +37,7 @@ def transition(trans, stack, buffer, arcs):
     return stack, buffer, arcs
 
 def parse():
-    words = "root the cat is on the mat today".split()
+    words = "root the cat sits on the mat today".split()
     stack = [0]
     buffer = [x for x in range(1, len(words))]
     arcs = []
